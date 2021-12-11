@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 5%;
+}
+
+form {
+    width: 50%;
+    height: 25%;
+}
+
+form input{
+    padding: 3%;
+    text-align: center;
+    font-size: 1.25rem;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+button {
+    background-color: red;
+}
+
+#submit-button {
+    background-color: green;
+    width: 50%;
+    font-size: 2rem;
+    padding: 0.25rem;
+    border: 2px solid black;
+}
+
+#clear-all-button {
+    width: 50%;
+    font-size: 2rem;
+    padding: 0.25rem;
+    border: 2px solid black;
+}
+
+#list {
+    list-style-type: none;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    font-size: 1.5rem;
+    background-color: gold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 10%;
+    padding: 1%;
+}
+
+li {
+    margin: 1.75%;
+}
+
+.delete-button {
+    font-size: 1.5rem;
+    padding: 0.25rem;
+}
+
+.outer-container {
+    padding: 5%;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50%;
+    background-color: darkgrey;
+    padding: 1rem;
+    overflow: scroll;
+    border: 2px solid black;
+}
+
+
+
+
+
