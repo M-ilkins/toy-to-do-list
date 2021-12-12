@@ -58,11 +58,13 @@ li {
     font-size: 1.5rem;
     background-color: gold;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     min-height: 10%;
     padding: 1%;
+    word-break: break-all;
 }
 
 li {
@@ -72,6 +74,7 @@ li {
 .delete-button {
     font-size: 1.5rem;
     padding: 0.25rem;
+    margin-top: 0.5em;
 }
 
 .outer-container {
