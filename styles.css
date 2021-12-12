@@ -90,7 +90,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    min-height: 50vh;
     width: 50%;
     background-color: darkgrey;
     padding: 1rem;
