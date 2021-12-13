@@ -5,8 +5,8 @@
 }
 
 h1 {
-    font-size: 5vw;
-    margin: 5%;
+    padding: 1vw;
+    font-size: 2vw;
 }
 
 form {
@@ -68,14 +68,12 @@ li {
 }
 
 .delete-button {
-    font-size: 3vw;
+    font-size: 1vw;
     padding: 0.25rem;
     margin-top: 0.5em;
 }
 
 .outer-container {
-    padding: 5%;
-    width: 100vw;
     height: 100vh;
     margin: auto;
     text-align: center;
@@ -86,7 +84,7 @@ li {
 }
 
 .list-container {
-    min-height: 50vh;
+    height: 50%;
     width: 50%;
     background-color: darkgrey;
     padding: 1rem;
