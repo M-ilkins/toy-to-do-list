@@ -23,10 +23,6 @@ form input{
     border: 2px solid black;
 }
 
-button {
-    background-color: red;
-}
-
 #submit-button {
     background-color: green;
     width: 50%;
@@ -40,6 +36,7 @@ button {
     font-size: 2rem;
     padding: 0.25rem;
     border: 2px solid black;
+    background-color: red;
 }
 
 #list {
