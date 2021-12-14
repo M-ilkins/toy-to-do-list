@@ -34,16 +34,18 @@ function handleForm(e){
     e.preventDefault();
 } 
 
+function hitEnterToInput(e){
+    if (e.key == 'Enter'){
+        addToList();
+    }
+}
+
 listContainer.onclick = deleteItem;
 submitButton.onclick = addToList;
 clearAllButton.onclick = clearAll;
 form.onsubmit = handleForm;
 
-toDoInput.onkeyup = function(e) {
-    if (e.key == 'Enter'){
-        addToList();
-    }
-}
+toDoInput.onkeyup = hitEnterToInput;
 
 
 
