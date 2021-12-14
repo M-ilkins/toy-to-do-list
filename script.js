@@ -6,6 +6,12 @@ const clearAllButton = document.getElementById('clear-all-button');
 const submitButton = document.getElementById('submit-button');
 const listContainer = document.getElementsByClassName("list-container")[0];
 const form = document.getElementById("form");
+// Storing (not-happy-jocko) image and quote text 
+notHappyJockoImage = document.getElementById("not-happy-jocko");
+notHappyJockoQuote = document.querySelector("#not-happy-jocko + p");
+//storing (happy-jocko) image and quote text
+const happyJockoImage = document.getElementById("happy-jocko");
+const happyJockoQuote = document.querySelector("#happy-jocko + p");
 
 
 //Function declarations
@@ -20,9 +26,11 @@ function addToList() {
     toDoInput.value = '';
     document.getElementById("happy-jocko").style.display = "inline";
     document.querySelector("#happy-jocko + p").style.display = "inline";
+    setTimeout(function(){happyJockoImage.style.display = "none"; happyJockoQuote.style.display = "none";}, 1000);
     } else {
         document.getElementById("not-happy-jocko").style.display = "inline";
         document.querySelector("#not-happy-jocko + p").style.display = "inline";
+        setTimeout(function(){notHappyJockoImage.style.display = "none"; notHappyJockoQuote.style.display = "none";}, 1000);
         alert("Taking the day off?")
     }
 }
