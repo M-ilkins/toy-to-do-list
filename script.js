@@ -26,11 +26,11 @@ function addToList() {
     toDoInput.value = '';
     document.getElementById("happy-jocko").style.display = "inline";
     document.querySelector("#happy-jocko + p").style.display = "inline";
-    setTimeout(function(){happyJockoImage.style.display = "none"; happyJockoQuote.style.display = "none";}, 1000);
+    setTimeout(function(){happyJockoImage.style.display = "none"; happyJockoQuote.style.display = "none";}, 1500);
     } else {
         document.getElementById("not-happy-jocko").style.display = "inline";
         document.querySelector("#not-happy-jocko + p").style.display = "inline";
-        setTimeout(function(){notHappyJockoImage.style.display = "none"; notHappyJockoQuote.style.display = "none";}, 1000);
+        setTimeout(function(){notHappyJockoImage.style.display = "none"; notHappyJockoQuote.style.display = "none";}, 1500);
         alert("Taking the day off?")
     }
 }
