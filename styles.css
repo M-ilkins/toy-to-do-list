@@ -1,7 +1,21 @@
+/* CSS structured linearly to follow the 
+flow of the HTML document  */
+
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+.outer-container {
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 h1 {
@@ -30,16 +44,13 @@ form input{
     border: 2px solid black;
 }
 
-#clear-all-button {
+.list-container {
+    height: 50%;
     width: 50%;
-    font-size: 3vw;
-    padding: 0.25rem;
+    background-color: darkgrey;
+    padding: 1rem;
+    overflow: scroll;
     border: 2px solid black;
-    background-color: red;
-}
-
-#list {
-    list-style-type: none;
 }
 
 ul {
@@ -48,9 +59,11 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    list-style-type: none;
 }
 
 li {
+    margin: 1.75%;
     font-size: 1.5vw;
     background-color: gold;
     display: flex;
@@ -63,33 +76,18 @@ li {
     word-break: break-all;
 }
 
-li {
-    margin: 1.75%;
-}
-
 .delete-button {
     font-size: 1vw;
     padding: 0.25rem;
     margin-top: 0.5em;
 }
 
-.outer-container {
-    height: 100vh;
-    margin: auto;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.list-container {
-    height: 50%;
+#clear-all-button {
     width: 50%;
-    background-color: darkgrey;
-    padding: 1rem;
-    overflow: scroll;
+    font-size: 3vw;
+    padding: 0.25rem;
     border: 2px solid black;
+    background-color: red;
 }
 
 
